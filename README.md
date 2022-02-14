@@ -6,6 +6,7 @@ CentOS 사용법
 # 1. 설치
 
 CentOS를 설치하기위해서는 ISO를 다운받아야 합니다. 
+![image](https://user-images.githubusercontent.com/42128097/153798668-baeee217-6233-466f-9bcf-4dd349bf604e.png)
 
 http://mirror.kakao.com/centos/7.9.2009/isos/x86_64/
 
