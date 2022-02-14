@@ -17,4 +17,23 @@ http://mirror.kakao.com/centos/7.9.2009/isos/x86_64/
 
 minimal버전은 UI가 없다.
 
+windows에서의 원활한 진행을 위해 아래 virtualbox 를 다운받아주자.
 
+https://www.virtualbox.org/wiki/Downloads
+
+물론 windows에서 사용할 예정이기 때문에 windows hosts로 다운받으면 된다.
+
+# 2. 네트워크 설정 
+
+초기 CentOS를 설치했으면 네트워크 설정을 해줘야한다. 
+네트워크 설정은 주로 
+cd /etc/sysconfig/network-scripts/ 에서 설정하며, ifcfg~~ 를 vi에디터로 열어주면 된다. 
+
+BOOTPROTO="static"
+IPADDR="할당할 아이피"
+NETMASK="넷마스크"
+GATEWAY="게이트웨이"
+
+를 추가적으로 작성을 해주면된다. 
+
+해당 내용은 본인이 사용하는 인터넷을 확인해보면 된다.
