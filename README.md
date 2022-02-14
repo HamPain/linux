@@ -25,7 +25,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 # 2. 네트워크 설정 
 
-초기 CentOS를 설치했으면 네트워크 설정을 해줘야한다. 
+초기 CentOS를 설치했으면 네트워크 설정을 해줘야한다. <br>
 네트워크 설정은 주로 
 cd /etc/sysconfig/network-scripts/ 에서 설정하며, ifcfg~~ 를 vi에디터로 열어주면 된다. 
 
