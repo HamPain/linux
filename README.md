@@ -44,6 +44,7 @@ cd /etc/sysconfig/network-scripts/ 에서 설정하며, ifcfg~~ 를 vi에디터�
 windows 프로그램인 OpenSSH 로 cmd를 통해 연결을 해볼 수 있다. 
 (보안으로 인해 OpenSSH로 접속은 많이는 사용안하는편)
 <br>
-sudu systemctl start network - 네트워크 실행 <br>
-sudu systemctl restart network - 네트워크 재시작 <br>
-sudu systemctl stop network - 네트워크 종료
+<br>
+- sudu systemctl start network   - 네트워크 실행 <br>
+- sudu systemctl restart network - 네트워크 재시작 <br>
+- sudu systemctl stop network    - 네트워크 종료
