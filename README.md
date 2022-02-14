@@ -29,10 +29,10 @@ https://www.virtualbox.org/wiki/Downloads
 네트워크 설정은 주로 
 cd /etc/sysconfig/network-scripts/ 에서 설정하며, ifcfg~~ 를 vi에디터로 열어주면 된다. 
 
-BOOTPROTO="static"
-IPADDR="할당할 아이피"
-NETMASK="넷마스크"
-GATEWAY="게이트웨이"
+<li>BOOTPROTO="static"</li>
+<li>IPADDR="할당할 아이피"</li>
+<li>NETMASK="넷마스크"</li>
+<li>GATEWAY="게이트웨이"</li>
 
 를 추가적으로 작성을 해주면된다. 
 
