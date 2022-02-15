@@ -65,3 +65,7 @@ password <br>
 현 firewall 가 어떤 상태인지 알아야합니다. 
 
 firewall-cmd --state<br>해당 명령어로 구동이 되고있는지 확인할 수 있습니다.
+
+기본적으로 방화벽이 설치되어있는 경우도있지만, 설치가 안되어있다면 
+yum install furewalld 명령어로 다운로드 받을 수 있습니다. 
+root 계정이 아니라면 sudu yum install firewalld 명령어를 사용하면 됩니다.
