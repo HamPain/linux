@@ -60,3 +60,8 @@ password <br>
 - sudu systemctl start network   - 네트워크 실행 <br>
 - sudu systemctl restart network - 네트워크 재시작 <br>
 - sudu systemctl stop network    - 네트워크 종료
+
+# 3.방화벽
+현 firewall 가 어떤 상태인지 알아야합니다. 
+
+firewall-cmd --state<br>해당 명령어로 구동이 되고있는지 확인할 수 있습니다.
