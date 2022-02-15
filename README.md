@@ -69,3 +69,6 @@ firewall-cmd --state<br>해당 명령어로 구동이 되고있는지 확인할 
 기본적으로 방화벽이 설치되어있는 경우도있지만, 설치가 안되어있다면 <br>
 yum install furewalld 명령어로 다운로드 받을 수 있습니다. <br>
 root 계정이 아니라면 sudu yum install firewalld 명령어를 사용하면 됩니다.<br>
+
+- systemctl start firewalld 방화벽 시작 명령어
+- systemctl stop firewalld 방화벽 종료 명령어
