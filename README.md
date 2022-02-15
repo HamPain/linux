@@ -24,6 +24,10 @@ https://www.virtualbox.org/wiki/Downloads
 
 물론 windows에서 사용할 예정이기 때문에 windows hosts로 다운받으면 된다.
 
+virtual머신은 CentOS로 잡아주고 다운받은 ISO파일을 광학드라이버에 인식해준다.
+
+네트워크 설정은 어뎁터에 브릿지로 잡아준다.
+
 # 2. 네트워크 설정 
 
 초기 CentOS를 설치했으면 네트워크 설정을 해줘야한다. <br>
@@ -43,6 +47,14 @@ cd /etc/sysconfig/network-scripts/ 에서 설정하며, ifcfg~~ 를 vi에디터�
 추가적으로 editplus에서 연결을 확인해볼수 있으며<br>
 windows 프로그램인 OpenSSH 로 cmd를 통해 연결을 해볼 수 있다. 
 (보안으로 인해 OpenSSH로 접속은 많이는 사용안하는편)
+
+cmd를 통해 OpenSSH로 접속방법은 cmd내에서 
+
+cd C:\Windows\System32\OpenSSH 로 접속 후 <br>
+ssh root@(linux server ip)<br>
+password <br>
+
+해당 작업 후 접속이 되었다면 성공
 <br>
 <br>
 - sudu systemctl start network   - 네트워크 실행 <br>
